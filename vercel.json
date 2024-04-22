@@ -1,0 +1,36 @@
+{
+  "headers": [
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "host",
+          "value": "aldo.io"
+        }
+      ],
+      "headers": [
+        {
+          "key": "My-Custom-Header",
+          "value": "host is aldo.io"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "host",
+          "value": "vercel.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "My-Custom-Header",
+          "value": "host is vercel.app"
+        }
+      ]
+    }
+  ]
+}
