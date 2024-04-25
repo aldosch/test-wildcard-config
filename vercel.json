@@ -12,7 +12,23 @@
       "headers": [
         {
           "key": "My-Custom-Header",
-          "value": "host is aldo.io"
+          "value": "🌈 host is aldo.io"
+        }
+      ]
+    },
+    {
+      "source": "/",
+      "has": [
+        {
+          "type": "header",
+          "key": "host",
+          "value": "test-wildcard-config.aldo.io"
+        }
+      ],
+      "headers": [
+        {
+          "key": "My-Custom-Header",
+          "value": "🌈 host is specifically test-wildcard-config.aldo.io"
         }
       ]
     },
@@ -28,7 +44,7 @@
       "headers": [
         {
           "key": "My-Custom-Header",
-          "value": "host is vercel.app"
+          "value": "🌈 host is vercel.app"
         }
       ]
     }
